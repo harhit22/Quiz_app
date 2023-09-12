@@ -1,9 +1,7 @@
-import React, { Children } from 'react';
-
-const Main = () => {
+const Main = ({children}) => {
     return (
         <main className='main'>
-            {Children}
+            {children}
         </main>
     );
 }
